@@ -1,3 +1,16 @@
+:root{
+  --accent-red: #B10000;
+  --second-color: rgb(9, 2, 2);
+  --nav-color: #412442;
+  --logo-font-family: 'Rubik Beastly', cursive;
+  --rubik: 'Rubik', sans-serif;
+  --rubik-beast: 'Rubik Beastly', cursive;
+  --rubik-glitch: 'Rubik Glitch', cursive;
+  --rubik-microbe: 'Rubik Microbe', cursive;
+  --rubik-mono: 'Rubik Mono One', sans-serif;
+  --rubik-moon-rocks: 'Rubik Moonrocks', cursive;
+  --rubik-wet-paint: 'Rubik Wet Paint', cursive;
+}
 .App {
   text-align: center;
   background-color: #282c34;
@@ -5,8 +18,45 @@
   color:seashell;
 }
 
-
-
-.App-link {
-  color: #61dafb;
+a{
+  color:seashell;
+  text-decoration: none;
 }
+
+.accent-color{
+  color: var(--accent-red);
+}
+
+#nav-bar{
+  position: relative;
+
+  
+
+  height: 10vh;
+  background-color: var(--second-color);
+}
+
+#nav-logo{
+  font-family: var(--rubik-wet-paint);
+  font-weight: 100;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 2vw;
+  transform: translate(0%, -50%);
+}
+
+.nav-links{
+  font-size: 1.4rem;
+  margin-left: 40px;
+  transform: translate(0%, 50%);
+}
+
+.hack-logo{
+  font-family: var(--rubik-glitch);
+}
+
+.art-logo{
+  font-family: var(--rubik-microbe);
+}
+
