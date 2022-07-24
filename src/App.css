@@ -85,3 +85,13 @@ a{
 .tech-logo{
   font-family: "dangerbot-chrome";
 }
+
+
+
+
+/* HOME PAGE*/
+.home-logo{
+  font-family: "dangerbot-chrome";
+  font-weight: lighter;
+  font-size: 4rem;
+}

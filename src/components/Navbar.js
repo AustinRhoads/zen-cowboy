@@ -5,6 +5,7 @@ function Navbar() {
   return (
     <div id="nav-bar">
         <Link to="/"><span id="nav-logo"><span className="accent-color">Z</span>EN COWBOY</span></Link>
+
         <div id="link-list" >
           <Link className="nav-links web-dev-logo" to="/webdev" ><span>WEBDEV</span></Link>
           <Link className="nav-links hack-logo" to="/hacking-tools">HACK</Link>
