@@ -1,6 +1,7 @@
 :root{
   --accent-red: #B10000;
   --second-color: rgb(9, 2, 2);
+  --dark-grey: #222224;
   --nav-color: #412442;
   --logo-font-family: 'Rubik Beastly', cursive;
   --rubik: 'Rubik', sans-serif;
@@ -21,10 +22,16 @@
 
 .App {
   text-align: center;
-  background-color: #282c34;
+  
   height: 100vh;
   width: 100vw;
   color:seashell;
+}
+
+.pages{
+  background-color: var(--second-color);
+  height: 100vh;
+  width: 100vw;
 }
 
 a{
@@ -40,7 +47,7 @@ a{
   position: relative;
   height: 10vh;
   min-height: 52px;
-  background-color: var(--second-color);
+  background-color: rgba(9, 2, 2, 0.697);;
 }
 
 #nav-logo{
@@ -64,6 +71,14 @@ a{
   
 }
 
+#links-wrapper-img{
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
 .nav-links{
   font-size: 1.3rem;
   margin-left: 1.3rem;
@@ -72,6 +87,7 @@ a{
 
 .hack-logo{
   font-family: var(--rubik-glitch);
+  margin-right: 12px;
 }
 
 .art-logo{
@@ -80,6 +96,7 @@ a{
 
 .web-dev-logo{
   font-family: var(--rubik-mono);
+  margin-left: 0rem;
 }
 
 .tech-logo{
@@ -91,7 +108,12 @@ a{
 
 /* HOME PAGE*/
 .home-logo{
+  position: absolute;
+  display: inline-block;
+
   font-family: "dangerbot-chrome";
   font-weight: lighter;
-  font-size: 4rem;
+  font-size: 5rem;
+  letter-spacing: .2rem;
+ 
 }

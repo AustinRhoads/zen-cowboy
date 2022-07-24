@@ -2,7 +2,7 @@ import React from 'react'
 
 function WebDev() {
   return (
-    <div>WebDev</div>
+    <div className="pages" >WebDev</div>
   )
 }
 

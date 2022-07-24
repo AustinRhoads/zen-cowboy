@@ -2,7 +2,7 @@ import React from 'react'
 
 function Art() {
   return (
-    <div>Art</div>
+    <div className="pages" >Art</div>
   )
 }
 

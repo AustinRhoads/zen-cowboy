@@ -2,7 +2,7 @@ import React from 'react'
 
 function Fishing() {
   return (
-    <div>Fishing</div>
+    <div  className="pages" >Fishing</div>
   )
 }
 

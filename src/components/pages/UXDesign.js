@@ -2,7 +2,7 @@ import React from 'react'
 
 function UXDesign() {
   return (
-    <div>UXDesign</div>
+    <div className="pages" >UXDesign</div>
   )
 }
 
