@@ -11,10 +11,19 @@
   --rubik-moon-rocks: 'Rubik Moonrocks', cursive;
   --rubik-wet-paint: 'Rubik Wet Paint', cursive;
 }
+
+@font-face {
+  font-family: "dangerbot-chrome";
+  src: url("./typefaces/DangerbotChrome-gLlE.ttf") format("TrueType") ;
+}
+
+
+
 .App {
   text-align: center;
   background-color: #282c34;
   height: 100vh;
+  width: 100vw;
   color:seashell;
 }
 
@@ -29,10 +38,8 @@ a{
 
 #nav-bar{
   position: relative;
-
-  
-
   height: 10vh;
+  min-height: 52px;
   background-color: var(--second-color);
 }
 
@@ -46,10 +53,21 @@ a{
   transform: translate(0%, -50%);
 }
 
+#link-list{
+  position: absolute;
+  display:flex;
+  flex-direction: row;
+  width: 33vw;
+  left: 66vw;
+  top: 50%;
+  transform: translate(0%, -50%);
+  
+}
+
 .nav-links{
-  font-size: 1.4rem;
-  margin-left: 40px;
-  transform: translate(0%, 50%);
+  font-size: 1.3rem;
+  margin-left: 1.3rem;
+
 }
 
 .hack-logo{
@@ -60,3 +78,10 @@ a{
   font-family: var(--rubik-microbe);
 }
 
+.web-dev-logo{
+  font-family: var(--rubik-mono);
+}
+
+.tech-logo{
+  font-family: "dangerbot-chrome";
+}
